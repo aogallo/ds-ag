@@ -1,0 +1,9 @@
+import React from 'react';
+import { FontSize } from '@ds.ag/foundation';
+var Text = function (_a) {
+    var _b = _a.size, size = _b === void 0 ? FontSize.base : _b, children = _a.children;
+    var className = "dse-text dse-text-".concat(size);
+    return React.createElement("p", { className: className }, children);
+};
+export default Text;
+//# sourceMappingURL=Text.js.map

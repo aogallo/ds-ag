@@ -1,0 +1,14 @@
+/* SPACING */
+/* Global text colors */
+/* Buttons */
+/* Forms */
+/* Foundation - Typography */
+/* Body font sizes */
+/* Heading font sizes */
+/* Head font weights */
+/* MIXINS */
+.dse-button-container {
+  display: flex;
+  background-color: var(--dse-btn-primary-bg, #5ece7b);
+  color: var(--dse-btn-primary-color, #fff);
+}

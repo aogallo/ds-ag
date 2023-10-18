@@ -1,0 +1,32 @@
+/* SPACING */
+/* Global text colors */
+/* Buttons */
+/* Forms */
+/* Foundation - Typography */
+/* Body font sizes */
+/* Heading font sizes */
+/* Head font weights */
+/* MIXINS */
+.dse-text {
+  margin: 0;
+}
+
+.dse-text-xs {
+  font-size: 0.75rem;
+}
+
+.dse-text-sm {
+  font-size: 0.875rem;
+}
+
+.dse-text-base {
+  font-size: 1rem;
+}
+
+.dse-text-lg {
+  font-size: 1.125rem;
+}
+
+.dse-text-xl {
+  font-size: 1.5rem;
+}

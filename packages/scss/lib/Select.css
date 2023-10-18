@@ -1,0 +1,69 @@
+/* SPACING */
+/* Global text colors */
+/* Buttons */
+/* Forms */
+/* Foundation - Typography */
+/* Body font sizes */
+/* Heading font sizes */
+/* Head font weights */
+/* MIXINS */
+.dse-select {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.dse-select__caret {
+  transition: all 250ms ease;
+}
+
+.dse-select__caret--open {
+  transform: rotate(180deg);
+}
+
+.dse-select__caret--closed {
+  transform: rotate(0deg);
+}
+
+.dse-select__label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem;
+  border: 1px solid var(--dse-form-border-color, #f1f2f3);
+  background: var(--dse-form-bg-color, #fff);
+  font-family: var(--body-font-family, "Playfair", serif);
+  cursor: pointer;
+}
+
+.dse-select__overlay {
+  padding: 0rem;
+  margin: "none";
+  list-style: none;
+  /* box-shadow: map-get($map: $shadows, $key: "base"); */
+  border: 1px solid var(--dse-form-border-color, #f1f2f3);
+  background-color: var(--dse-form-bg-color, #fff);
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+}
+
+.dse-select__option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+  background-color: var(--dse-form-bg-color, #fff);
+  padding: 0.75rem;
+  box-sizing: border-box;
+}
+
+.dse-select__option:hover {
+  background-color: var(--dse-form-bg-color-hover, #f1f2f3);
+}
+
+.dse-select__option--selected {
+  background-color: var(--dse-form-bg-option-selected, #5ece7b);
+  color: var(--dse-form-color-option-selected, #fff);
+}
